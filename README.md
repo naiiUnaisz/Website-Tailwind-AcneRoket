@@ -3,7 +3,6 @@
 Proyek landing page sederhana bertema **perusahaan roket futuristik** bernama *Acme Rockets*.  
 Website ini dibuat menggunakan **Tailwind CSS** dengan tampilan yang bersih, modern, dan responsif.
 
-
 ---
 
 ## 🛠️ Teknologi yang Digunakan
@@ -28,21 +27,20 @@ Website ini dibuat menggunakan **Tailwind CSS** dengan tampilan yang bersih, mod
 
 ## 📂 Struktur Folder
 
+```
 acme-rockets/
 │
 ├── build/
-│ └── index.html # File HTML utama
+│   └── index.html          # File HTML utama
 │
 ├── src/
-│ └── input.css # File sumber Tailwind CSS
+│   └── input.css           # File sumber Tailwind CSS
 │
-├── tailwind.config.js # Konfigurasi Tailwind
-├── postcss.config.js # Konfigurasi PostCSS
-├── package.json # Daftar dependensi proyek
-└── README.md # Dokumentasi proyek
-
-yaml
-Copy code
+├── tailwind.config.js      # Konfigurasi Tailwind
+├── postcss.config.js       # Konfigurasi PostCSS
+├── package.json            # Daftar dependensi proyek
+└── README.md               # Dokumentasi proyek
+```
 
 ---
 
@@ -51,29 +49,34 @@ Copy code
 1. **Clone repository**
    ```bash
    git clone https://github.com/username/acme-rockets.git
-Masuk ke folder proyek
+   ```
 
-bash
-Copy code
-cd acme-rockets
-Instal semua dependensi
+2. **Masuk ke folder proyek**
+   ```bash
+   cd acme-rockets
+   ```
 
-bash
-Copy code
-npm install
-Jalankan Tailwind untuk build CSS
+3. **Instal semua dependensi**
+   ```bash
+   npm install
+   ```
 
-bash
-Copy code
-npm run build
-atau jika ingin mode pengembangan (otomatis update saat disimpan):
+4. **Jalankan Tailwind untuk build CSS**
+   ```bash
+   npm run build
+   ```
 
-bash
-Copy code
-npm run dev
-Buka hasilnya
-Buka file build/index.html di browser.
+   atau jika ingin mode pengembangan (otomatis update saat disimpan):
+   ```bash
+   npm run dev
+   ```
 
-💡 Tentang Proyek
-Proyek ini dibuat sebagai latihan membangun tampilan website menggunakan Tailwind CSS.
+5. **Buka hasilnya**
+   Buka file `build/index.html` di browser.
+
+---
+
+## 💡 Tentang Proyek
+
+Proyek ini dibuat sebagai latihan membangun tampilan website menggunakan **Tailwind CSS**.  
 Tujuannya adalah untuk memahami struktur layout, penggunaan utility class, dan cara membuat halaman yang menarik tanpa banyak kode CSS tambahan.
